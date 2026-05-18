@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 export default defineConfig({
+  base: '/paginaweb-mtw/', 
   plugins: [
     react(),
     tailwindcss(),
