@@ -1,4 +1,4 @@
-import { Code2, CircleFadingPlus, MessageCircle, Globe } from 'lucide-react';
+import { CircleFadingPlus, MessageCircle, Globe } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -7,9 +7,13 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="size-9 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-lg flex items-center justify-center">
-                <Code2 className="size-5 text-slate-950" />
-              </div>
+              <div className="size-10 overflow-hidden rounded-lg">
+               <img 
+                src="public\logo_1.png" // Reemplaza con el nombre exacto de tu archivo en public
+                alt="MTW Logo" 
+                className="w-full h-full object-contain"
+              />
+            </div>
               <span className="font-semibold text-lg">Multi Tech Works</span>
             </div>
             <p className="text-slate-400 text-sm">Creando experiencias web excepcionales para empresas ambiciosas en todo el mundo.</p>
@@ -28,7 +32,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Conéctate con Nosotros</h4>
             <div className="flex gap-4">
-              <a href="https://instagram.com/joelwea" target="_blank" rel="noopener noreferrer" className="size-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-pink-400 hover:to-purple-500 transition-all">
+              <a href="https://instagram.com/multitechwork" target="_blank" rel="noopener noreferrer" className="size-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-pink-400 hover:to-purple-500 transition-all">
                 <CircleFadingPlus className="size-5" />
               </a>
               <a href="https://wa.me/56967385442" target="_blank" rel="noopener noreferrer" className="size-10 bg-slate-800 rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-green-400 hover:to-green-500 transition-all">
